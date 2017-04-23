@@ -31,6 +31,7 @@
     "cross-env": "^3.2.4",
     "eslint": "^3.17.0",
     "eslint-config-fbjs": "^1.1.1",
+    "eslint-config-prettier": "^1.7.0",
     "eslint-plugin-babel": "^4.1.0",
     "eslint-plugin-flowtype": "^2.30.0",
     "eslint-plugin-prettier": "^2.0.1",
@@ -39,6 +40,7 @@
     "jest": "^17.0.3",
     "jsdom": "^9.10.0",
     "ovrui": "*",
+    "prettier": "^1.2.2",
     "react": "~15.4.1",
     "react-native": "~0.42.0",
     "three": "^0.80.1"
