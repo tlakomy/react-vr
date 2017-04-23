@@ -75,13 +75,13 @@ export default class RCTCylindricalPanel extends RCTBaseView {
         this.subScene._rttWidth = value.width;
         this.subScene._rttHeight = value.height;
         this.cylinder.geometry.dispose();
-        // The subtended angle given the fraction of the layer (layerDenisity) cover by the
+        // The subtended angle given the fraction of the layer (layerDensity) cover by the
         // layerWidth
         const delta = 2 * Math.PI * this.props._layerWidth / this.props._layerDensity;
         // The same calculation as shell
         // there is not a direct correlation but for a small angle (<60) the arc of the cylinder
         // is also a reasonable approximation of the chord (within 95%)
-        // as our angle is small and dealing with px height rather than angles a proprtion of an arc
+        // as our angle is small and dealing with px height rather than angles a proportion of an arc
         // is used
         const halfHeight = this.props._layerRadius *
           (Math.PI * value.height / this.props._layerDensity);
@@ -159,7 +159,7 @@ export default class RCTCylindricalPanel extends RCTBaseView {
   }
 
   /**
-   * Describes the properies representable by this view type and merges
+   * Describes the properties representable by this view type and merges
    * with super type
    */
   static describe() {
